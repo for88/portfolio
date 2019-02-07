@@ -1,0 +1,130 @@
+.sl_menu{
+	margin:20px 0px 0px 20px;
+	list-style:none;
+}
+.sl_menu li,
+.sl_examples{
+	float:left;
+	font-family: 'Bevan', arial, serif;
+	font-size:15px;
+	line-height:20px;
+	color:#f0f0f0;
+	margin-right:5px;
+	text-transform:uppercase;
+}
+.sl_menu a,
+.sl_examples a{
+	display:block;
+	position:relative;
+	float:left;
+	clear:both;
+	color:#fff;
+}
+.sl_menu a > span,
+.sl_examples a > span{
+	height:50px;
+	float:left;
+	position:relative;
+	overflow:hidden;
+}
+.sl_menu a span span,
+.sl_examples a span span{
+	position:absolute;
+	display:block;
+	left:0px;
+	top:0px;
+	text-align:center;
+}
+.sl_menu a span span.sl-w1,
+.sl_examples a span span.sl-w1{
+	color:rgba(255, 255, 255, 0.52);
+	z-index:2;
+}
+.sl_menu a span span.sl-w2{
+	color:#e82760;
+	text-shadow:-1px 1px 2px #9f0633;
+	z-index:3;
+}
+.sl_examples{
+	margin: 5px;
+	clear:both;
+	display:block;
+}
+.sl_examples a{
+	margin:15px;
+}
+#example1{
+	font-family:'Bigshot One', arial, serif;
+}
+#example2{
+	font-family:'Myriad Pro', arial, serif;
+	margin-left:100px;
+}
+#example3{
+	font-family:'Aclonica', arial, serif;
+}
+#example4{
+	font-family:'Arial Black', arial, serif;
+	margin-left:100px;
+}
+#example5{
+	font-family:Georgia, arial, serif;
+	font-size:20px;
+	line-height:50px;
+}
+.sl_examples a#example5 > span{
+	height:100px;
+}
+.sl_examples a#example1 span span.sl-w2{
+	color:#fbb1be;
+	text-shadow:0px 2px 1px #e71b70;
+	z-index:3;
+}
+.sl_examples a#example2 span span.sl-w2{
+	color:#6ac6cc;
+	text-shadow:0px 0px 1px #6ac6cc;
+	z-index:3;
+}
+.sl_examples a#example3 span span.sl-w2{
+	color:#ba968a;
+	text-shadow:1px 1px 1px #a78276,  0px 0px 5px #fff;
+	z-index:3;
+}
+.sl_examples a#example4 span span.sl-w2{
+	color:#afd7aa;
+	text-shadow:0px 0px 4px #648e5f;
+	z-index:3;
+}
+.sl_examples a#example5 span span.sl-w2{
+	color:#ff516f;
+	text-shadow:0px 1px 2px #99162c;
+	z-index:3;
+}
+.world{
+	position: relative;
+	height: 100%;
+	width: 300px;
+	left: 0;
+	top: 60px;
+}
+.sl_menu{
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: -10%;
+	width: 300px;
+}
+
+.sl_examples{
+	position: absolute;
+	left: 190px;
+}
+.sl_menu li{
+	margin-bottom: 30px;
+}
+#css3{
+	margin-left: 60px;
+}
+#git{
+	margin-left: 110px;
+}
